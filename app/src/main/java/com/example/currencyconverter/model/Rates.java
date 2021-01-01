@@ -362,7 +362,7 @@ public class Rates {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this).append("cAD", cAD).append("hKD", hKD).append("iSK", iSK).append("pHP", pHP).append("dKK", dKK).append("hUF", hUF).append("cZK", cZK).append("aUD", aUD).append("rON", rON).append("sEK", sEK).append("iDR", iDR).append("iNR", iNR).append("bRL", bRL).append("rUB", rUB).append("hRK", hRK).append("jPY", jPY).append("tHB", tHB).append("cHF", cHF).append("sGD", sGD).append("pLN", pLN).append("bGN", bGN).append("tRY", tRY).append("cNY", cNY).append("nOK", nOK).append("nZD", nZD).append("zAR", zAR).append("uSD", uSD).append("mXN", mXN).append("iLS", iLS).append("gBP", gBP).append("kRW", kRW).append("mYR", mYR).toString();
+        return "cAD="+ cAD+",hKD="+ hKD+",iSK="+ iSK+",pHP="+ pHP+",dKK="+ dKK+",hUF="+ hUF+",cZK="+ cZK+",aUD="+ aUD+",rON="+ rON+",sEK="+ sEK+",iDR="+ iDR+",iNR="+ iNR+",bRL="+ bRL+",rUB="+ rUB+",hRK="+ hRK+",jPY="+ jPY+",tHB="+ tHB+",cHF="+ cHF+",sGD="+ sGD+",pLN="+ pLN+",bGN="+ bGN+",tRY="+ tRY+",cNY="+ cNY+",nOK="+ nOK+",nZD="+ nZD+",zAR="+ zAR+",uSD="+ uSD+",mXN="+ mXN+",iLS="+ iLS+",gBP="+ gBP+",kRW="+ kRW+",mYR="+ mYR;
     }
 
 }

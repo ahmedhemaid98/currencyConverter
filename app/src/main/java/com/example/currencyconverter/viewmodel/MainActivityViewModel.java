@@ -40,7 +40,7 @@ public class MainActivityViewModel extends ViewModel {
                         public void onResponse(@NotNull Call<RequestResult> call, @NotNull Response<RequestResult> response) {
                             if (response.isSuccessful() && response.body() != null) {
                                 resultLiveData.setValue(response.body());
-                                System.out.println(response.body());
+
                             } else {
                                 //TODO: get data from database
                             }

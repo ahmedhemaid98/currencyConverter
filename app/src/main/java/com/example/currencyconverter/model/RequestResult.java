@@ -41,8 +41,5 @@ public class RequestResult {
         this.date = date;
     }
 
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this).append("rates", rates).append("base", base).append("date", date).toString();
-    }
+
 }
